@@ -31,16 +31,19 @@
 
 #### Feature scaling
 
-- Model performs better when numerical data are within a certain range
+- **Note: not always required**
+- Model performs better when numerical data are within a certain range.
 - Better if all features have values in similar range as to not introduce any bias.
 
 - Normalization
 
   - Scale each value to a certain range (e.g. range 0-1)
+  - works best if data is normally distributed
   - [mix max scalar](https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.MinMaxScaler.html)
 
 - Standardization
   - Scales each value by subtracting with mean and dividing by standard deviation
+  - Works good all the time.
   - [standard scalar](https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.StandardScaler.html)
 - [Resources](https://machinelearningmastery.com/standardscaler-and-minmaxscaler-transforms-in-python/)
 
