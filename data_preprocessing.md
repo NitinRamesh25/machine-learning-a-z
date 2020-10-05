@@ -32,6 +32,7 @@
 #### Feature scaling
 
 - Model performs better when numerical data are within a certain range
+- Better if all features have values in similar range as to not introduce any bias.
 
 - Normalization
 
